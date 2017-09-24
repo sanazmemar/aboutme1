@@ -40,3 +40,18 @@ h4 {
     font-size: 16px;
     font-family: Georgia, serif;
     color: #999; }
+
+.ability-content {
+  padding-left: 50px;
+  width: 700px; }
+  .ability-content .education {
+    margin-top: 61px;
+    display: flex;
+    flex-direction: row; }
+    .ability-content .education h3 {
+      padding-right: 21px;
+      border-right: 1px solid #999; }
+    .ability-content .education .edu-content {
+      padding-left: 15px; }
+    .ability-content .education span {
+      font-weight: bold; }

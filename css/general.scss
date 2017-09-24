@@ -50,3 +50,23 @@ h4{
     color: $primary-color;
   }
 }
+.ability-content{
+  padding-left: 50px;
+  width:700px;
+  .education{
+    margin-top:61px;
+    display: flex;
+    flex-direction: row;
+
+    h3{
+          padding-right: 21px;
+      border-right: 1px solid $primary-color;
+    }
+    .edu-content{
+      padding-left: 15px;
+    }
+    span{
+      font-weight: bold;
+    }
+  }
+}
