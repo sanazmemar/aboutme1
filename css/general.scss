@@ -24,61 +24,97 @@ h4{
       float:right;
       margin:-36px 0 0 0;
     }
-}
-}
-.intro-content{
-  margin-top:46px;
-  address{
-      font-family: Helvetica !important;
-      font-style: normal;
-    a{
-      color:$primary-color;
-      text-decoration: none;
-      border-bottom: 1px dotted $primary-color;
-    }
-  }
 
-  h1{
-      border-bottom: 1px solid $primary-color;
-      font-size: 42px;
-      padding-bottom: 10px;
-  }
-  .caption{
-    font-style: italic;
-    font-size: 16px;
-    font-family: Georgia, serif;
-    color: $primary-color;
-  }
-}
-.ability-content{
-  padding-left: 50px;
-  width:700px;
-  .education{
-    margin-top:61px;
-    display: flex;
-    flex-direction: row;
+    .intro-content{
+      margin-top:46px;
+      address{
+          font-family: Helvetica !important;
+          font-style: normal;
+        a{
+          color:$primary-color;
+          text-decoration: none;
+          border-bottom: 1px dotted $primary-color;
+        }
+      }
 
-    h3{
-          padding-right: 21px;
-      border-right: 1px solid $primary-color;
+      h1{
+          border-bottom: 1px solid $primary-color;
+          font-size: 42px;
+          padding-bottom: 10px;
+      }
+      .caption{
+        font-style: italic;
+        font-size: 16px;
+        font-family: Georgia, serif;
+        color: $primary-color;
+      }
     }
-    .edu-content{
-      padding-left: 15px;
-    }
-    span{
-      font-weight: bold;
-    }
-  }
-  .skills{
-  display: flex;
-  flex-direction: row;
-  h3{
-        padding-right: 60px;
-    border-right: 1px solid $primary-color;
-  }
-  .skill-content{
-    padding-left: 15px;
-  }
-}
 
+  }
+  .ability-content{
+    padding-left: 50px;
+    width:700px;
+    .education{
+      margin-top:61px;
+      display: flex;
+      flex-direction: row;
+
+      h3{
+            padding-right: 21px;
+        border-right: 1px solid $primary-color;
+      }
+      .edu-content{
+        padding-left: 15px;
+      }
+      span{
+        font-weight: bold;
+      }
+    }
+    .skills{
+      display: flex;
+      flex-direction: row;
+      h3{
+            padding-right: 60px;
+        border-right: 1px solid $primary-color;
+      }
+      .skill-content{
+        padding-left: 15px;
+      }
+    }
+    .experience{
+      display: flex;
+      flex-direction: row;
+      h3{
+        padding-right: 13px;
+        border-right: 1px solid $primary-color;
+      }
+      .exp-content{
+  padding-left: 10px;
+      }
+    }
+    .hobbies{
+      display: flex;
+      flex-direction: row;
+      h3{
+        padding-right: 36px;
+        border-right: 1px solid $primary-color;
+      }
+      p{
+        padding-left: 10px;
+      }
+    }
+    .references{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 50px;
+      h3{
+        padding-right: 10px;
+        border-right: 1px solid $primary-color;
+      }
+      p{
+        padding-left: 10px;
+      }
+    }
+
+  }
 }

@@ -21,45 +21,68 @@ h4 {
   .content .introduction .pic {
     float: right;
     margin: -36px 0 0 0; }
-
-.intro-content {
-  margin-top: 46px; }
-  .intro-content address {
-    font-family: Helvetica !important;
-    font-style: normal; }
-    .intro-content address a {
-      color: #999;
-      text-decoration: none;
-      border-bottom: 1px dotted #999; }
-  .intro-content h1 {
-    border-bottom: 1px solid #999;
-    font-size: 42px;
-    padding-bottom: 10px; }
-  .intro-content .caption {
-    font-style: italic;
-    font-size: 16px;
-    font-family: Georgia, serif;
-    color: #999; }
-
-.ability-content {
-  padding-left: 50px;
-  width: 700px; }
-  .ability-content .education {
-    margin-top: 61px;
-    display: flex;
-    flex-direction: row; }
-    .ability-content .education h3 {
-      padding-right: 21px;
-      border-right: 1px solid #999; }
-    .ability-content .education .edu-content {
-      padding-left: 15px; }
-    .ability-content .education span {
-      font-weight: bold; }
-  .ability-content .skills {
-    display: flex;
-    flex-direction: row; }
-    .ability-content .skills h3 {
-      padding-right: 60px;
-      border-right: 1px solid #999; }
-    .ability-content .skills .skill-content {
-      padding-left: 15px; }
+  .content .introduction .intro-content {
+    margin-top: 46px; }
+    .content .introduction .intro-content address {
+      font-family: Helvetica !important;
+      font-style: normal; }
+      .content .introduction .intro-content address a {
+        color: #999;
+        text-decoration: none;
+        border-bottom: 1px dotted #999; }
+    .content .introduction .intro-content h1 {
+      border-bottom: 1px solid #999;
+      font-size: 42px;
+      padding-bottom: 10px; }
+    .content .introduction .intro-content .caption {
+      font-style: italic;
+      font-size: 16px;
+      font-family: Georgia, serif;
+      color: #999; }
+  .content .ability-content {
+    padding-left: 50px;
+    width: 700px; }
+    .content .ability-content .education {
+      margin-top: 61px;
+      display: flex;
+      flex-direction: row; }
+      .content .ability-content .education h3 {
+        padding-right: 21px;
+        border-right: 1px solid #999; }
+      .content .ability-content .education .edu-content {
+        padding-left: 15px; }
+      .content .ability-content .education span {
+        font-weight: bold; }
+    .content .ability-content .skills {
+      display: flex;
+      flex-direction: row; }
+      .content .ability-content .skills h3 {
+        padding-right: 60px;
+        border-right: 1px solid #999; }
+      .content .ability-content .skills .skill-content {
+        padding-left: 15px; }
+    .content .ability-content .experience {
+      display: flex;
+      flex-direction: row; }
+      .content .ability-content .experience h3 {
+        padding-right: 13px;
+        border-right: 1px solid #999; }
+      .content .ability-content .experience .exp-content {
+        padding-left: 10px; }
+    .content .ability-content .hobbies {
+      display: flex;
+      flex-direction: row; }
+      .content .ability-content .hobbies h3 {
+        padding-right: 36px;
+        border-right: 1px solid #999; }
+      .content .ability-content .hobbies p {
+        padding-left: 10px; }
+    .content .ability-content .references {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 50px; }
+      .content .ability-content .references h3 {
+        padding-right: 10px;
+        border-right: 1px solid #999; }
+      .content .ability-content .references p {
+        padding-left: 10px; }
