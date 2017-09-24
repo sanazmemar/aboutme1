@@ -69,4 +69,16 @@ h4{
       font-weight: bold;
     }
   }
+  .skills{
+  display: flex;
+  flex-direction: row;
+  h3{
+        padding-right: 60px;
+    border-right: 1px solid $primary-color;
+  }
+  .skill-content{
+    padding-left: 15px;
+  }
+}
+
 }

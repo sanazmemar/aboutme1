@@ -55,3 +55,11 @@ h4 {
       padding-left: 15px; }
     .ability-content .education span {
       font-weight: bold; }
+  .ability-content .skills {
+    display: flex;
+    flex-direction: row; }
+    .ability-content .skills h3 {
+      padding-right: 60px;
+      border-right: 1px solid #999; }
+    .ability-content .skills .skill-content {
+      padding-left: 15px; }
